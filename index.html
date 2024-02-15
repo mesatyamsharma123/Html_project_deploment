@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .h{
+            text-align: center;
+            border: 3px solid green;
+        }
+
+
+        .h2{
+            text-align: center;
+            border: 3px solid green;
+        }
+    </style>
+    
+
+
+
+</head>
+
+
+
+
+<body>
+<div class="h"><p>Hello</p></div>
+<div class="h2">
+
+
+<img id="image" onclick="onAndOff()" src="./image//12.jpeg" />
+
+</div>
+
+<script>
+   function onAndOff(){
+    let img=document.getElementById("image");
+    if(img.src.match("21")){
+        img.src="./image//12.jpeg";
+    }
+    else{
+        img.src="./image/21.jpeg";
+    
+    }
+
+  
+   }
+ 
+
+</script>
+
+    
+</body>
+</html>
